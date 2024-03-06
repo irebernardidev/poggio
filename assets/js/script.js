@@ -4,16 +4,17 @@ document.addEventListener("DOMContentLoaded", function () {
   
     if (mybutton) {
       window.onscroll = function () {
-        scrollFunction()
+        scrollFunction();
       };
   
-      function scrollFunction() {
+      // Convert function declaration to function expression
+      var scrollFunction = function() {
         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
           mybutton.style.display = "block";
         } else {
           mybutton.style.display = "none";
         }
-      }
+      };
   
       mybutton.addEventListener("click", function () {
         document.body.scrollTop = 0;
@@ -46,35 +47,10 @@ document.addEventListener("DOMContentLoaded", function () {
       var name = document.getElementById('input-name').value;
       var email = document.getElementById('input-email').value;
       var message = document.getElementById('text-area').value;
-      var subject = encodeURIComponent('Messaggio dal sito web');
-      var emailBody = 'Nome: ' + encodeURIComponent(name) + '%0AEmail: ' + encodeURIComponent(email) + '%0AMessaggio: ' + encodeURIComponent(message);
+      var subject = encodeURIComponent('Message from the website');
+      var emailBody = 'Name: ' + encodeURIComponent(name) + '%0AEmail: ' + encodeURIComponent(email) + '%0AMessage: ' + encodeURIComponent(message);
   
       window.location = 'mailto:info@poggioailegni.com?subject=' + subject + '&body=' + emailBody;
     });
   });
   
-  
-  document.addEventListener("DOMContentLoaded", function () {
-    // Get the button
-    var mybutton = document.querySelector(".back-to-top");
-  
-    if (mybutton) {
-      window.onscroll = function () {
-        scrollFunction()
-      };
-  
-      function scrollFunction() {
-        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-  
-      // When the user clicks on the button, scroll to the top of the document
-      mybutton.addEventListener("click", function () {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-      });
-    }
-  });
