@@ -4,154 +4,159 @@
 /*-- General --*/
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    color:#45545E;
-    line-height: 1.5;
-    position: relative;
+  font-family: 'Raleway', sans-serif;
+  color: #45545E;
+  line-height: 1.5;
+  position: relative;
 }
 
 .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .row {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Cinzel', serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Cinzel', serif;
 }
 
 section {
-    padding-top: 2rem;
-    position: relative;
+  padding-top: 2rem;
+  position: relative;
 }
 
 .section-title-heading {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 /*-- Button --*/
 
 .btn-orange {
-    background: #E56138;
-    color: #fff;
-    border-width: 1px;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-    padding: 0.75rem 1.75rem;
+  background: #E56138;
+  color: #fff;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  padding: 0.75rem 1.75rem;
 }
+
 .btn-orange:hover {
-    background: #B53C17;
-    color: #fff;
-} 
+  background: #B53C17;
+  color: #fff;
+}
 
 /*-- Background Color --*/
 
 .bg-gray-green {
-    background-color: #BEAF8A;
+  background-color: #BEAF8A;
 }
 
 .bg-cream {
-    background-color: #F0E4D8;
+  background-color: #F0E4D8;
 }
 
 .bg-orange {
-    background-color: #5C5C5C;
+  background-color: #5C5C5C;
 }
 
 .bg-light-green {
-    background-color: #DBE9DF;
+  background-color: #DBE9DF;
 }
 
 /*-- Navbar --*/
 
 .navbar img {
-    height: 35px;
-    width: 190px;  
+  height: 35px;
+  width: 190px;
 }
 
 .font-brand {
-    font-family: 'Cinzel', cursive;
-    font-weight: 600;
-    color: #232B2F;
+  font-family: 'Cinzel', cursive;
+  font-weight: 600;
+  color: #232B2F;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #232B2F;
-    margin-bottom: 0.125rem;
-    font-family: 'Cinzel', cursive;
-    font-size: 1rem;
+  color: #232B2F;
+  margin-bottom: 0.125rem;
+  font-family: 'Cinzel', cursive;
+  font-size: 1rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-    font-weight: 600;
+  font-weight: 600;
 
 }
 
-.nav-item > .active {
-    background-color: #DBE9DF;
-    border-radius: 5px;
+.nav-item>.active {
+  background-color: #DBE9DF;
+  border-radius: 5px;
 }
 
 /*-- Header & Hero --*/
 
 .header-container {
-    margin-top: 30px;
-    height: 100vh;
-    background: url(../images/hero-image.jpg) no-repeat center center;
-    background-attachment: scroll; 
+  margin-top: 30px;
+  height: 100vh;
+  background: url(../images/hero-image.jpg) no-repeat center center;
+  background-attachment: scroll;
 
-    /* The vendor prefixes below are from Autoprefixer CSS */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  /* The vendor prefixes below are from Autoprefixer CSS */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-    display: -webkit-box; 
-    display: -ms-flexbox; 
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
 
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .jumbotron {
-    background-color: rgba(255,255,255,0.8);
-    margin-left: 1rem;   
-    margin-right: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .jumbotron-header {
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 1.0;
-    line-height: 1.2em;
-    color:#45545E;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.0;
+  line-height: 1.2em;
+  color: #45545E;
 }
 
 .jumbotron-subheader {
-    font-weight: 600;
-    color:#45545E;
+  font-weight: 600;
+  color: #45545E;
 }
 
 /*-- Section 1: About Us --*/
@@ -159,72 +164,72 @@ section {
 /*-- Subsection: Who We Are --*/
 
 .about-text {
-    text-align: center;
-    color:#45545E;
-    margin: 1.25rem 0;
+  text-align: center;
+  color: #45545E;
+  margin: 1.25rem 0;
 }
 
 .blockquote {
-    font-family: 'Merriweather', serif;
-    line-height: 1.1em;
+  font-family: 'Merriweather', serif;
+  line-height: 1.1em;
 }
 
 /*-- Subsection: Why Shop With Us --*/
 
 .card {
-    border: none;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden; 
+  border: none;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .card-img-top {
-    border-radius: 10px;
-    width: 100%;
-    height: 200px;
-    object-fit: cover; 
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .card-body {
-    flex-grow: 1; 
-    display: flex;
-    flex-direction: column;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-text {
-    flex-grow: 1; 
-    min-height: 100px; 
+  flex-grow: 1;
+  min-height: 100px;
 }
 
 .card-title {
-    font-family: 'Cinzel', serif;
-    font-weight: 500;
+  font-family: 'Cinzel', serif;
+  font-weight: 500;
 }
 
 
 /*-- Section 2: Products --*/
 
 .carousel-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-    height: 700px; 
-    object-fit: cover; 
+  display: block;
+  width: 100%;
+  height: auto;
+  height: 700px;
+  object-fit: cover;
 }
 
 .products-text {
-    padding: 5rem 1rem;
+  padding: 5rem 1rem;
 }
 
 #products li {
-    list-style: none;
+  list-style: none;
 }
 
 .badge-styling {
-    background-color: #43787b;
-    color: #fff;
-    font-size: 85%;
-    font-weight: 500;
+  background-color: #43787b;
+  color: #fff;
+  font-size: 85%;
+  font-weight: 500;
 }
 
 /*-- Section 3: How To Shop --*/
@@ -233,164 +238,194 @@ section {
 
 .howtoshop-container i,
 .faq-container i {
-    color: #E86F4A;
+  color: #E86F4A;
 }
 
 .faq-container .question {
-    font-size: 1.25rem;
-    font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .faq-container .btn {
-    border: 1px solid #c7b0a7;
-    /* The vendor prefixes below are from Autoprefixer CSS */
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.25);
-    box-shadow: 0 0 8px 0 rgba(0,0,0,0.25);
+  border: 1px solid #c7b0a7;
+  /* The vendor prefixes below are from Autoprefixer CSS */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 .faq-container .btn:hover {
-   background-color: #F0E4D8;
+  background-color: #F0E4D8;
 }
 
 .faq-container .btn i:hover {
-    color: #8d3e26;
+  color: #8d3e26;
 }
 
 .faq-container .card-body {
-    padding-top: 0;
-    padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /*-- Subsection: Did you know --*/
 
 #did-you-know {
-    color: #fff;  
+  color: #fff;
 }
 
 .input-mailinglist {
-    border-style: none;
-    padding: 0.5rem;
+  border-style: none;
+  padding: 0.5rem;
 }
 
 /*-- Section 4: Contact --*/
 
 .contact-container {
-    background: url(../images/pic-10.jpg) no-repeat center bottom;
-    background-attachment: scroll;
-    /* The vendor prefixes below are from Autoprefixer CSS */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url(../images/pic-10.jpg) no-repeat center bottom;
+  background-attachment: scroll;
+  /* The vendor prefixes below are from Autoprefixer CSS */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .overlay {
-    background-color: rgba(255,255,255,0.9);
-    /* The vendor prefixes below are from Autoprefixer CSS */
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+  background-color: rgba(255, 255, 255, 0.9);
+  /* The vendor prefixes below are from Autoprefixer CSS */
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 /*-- Section 5: Find Us --*/
 .info-wrapper a {
-    color: inherit;
+  color: inherit;
 }
 
 .map-wrapper {
-    width: 500px;
-    height: 320px;
+  width: 500px;
+  height: 320px;
 }
 
-.map-wrapper > iframe {
-    width: 100%;
-    height: 100%;
-    border-style: none;
+.map-wrapper>iframe {
+  width: 100%;
+  height: 100%;
+  border-style: none;
 }
 
 /*-- Footer --*/
 
 footer .nav-link {
-    padding: 0;
+  padding: 0;
 }
 
 #footer a,
 #footer li {
-    color: #232B2F;
-    font-family: 'Cinzel', cursive;
+  color: #232B2F;
+  font-family: 'Cinzel', cursive;
 }
 
 #footer i {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-#footer a > img {
-    width: auto; 
-    height: 35px; 
+#footer a>img {
+  width: auto;
+  height: 35px;
 }
 
-#footer .nav-link:focus, 
+#footer .nav-link:focus,
 #footer .nav-link:hover {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 #footer i:hover {
-    color: #495a63;
+  color: #495a63;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 46px;
+    background: rgba(229, 97, 56, 0.8);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 9999;
+  }
+  
+  .back-to-top:hover {
+    background: rgba(190, 175, 138, 0.8); 
+    color: #45545E;
+  }
+  
+  .fas {
+    font-size: 24px;
+  }
+  
 
 /*-- Media Queries --*/
 
 /* For very narrow mobiles (galaxy fold, iphone 5, iphone se) */
 @media screen and (max-width: 350px) {
-    .navbar img {
-        height: 20px;
-        width: auto; 
-    }
-    .navbar-brand {
-        font-size: 1rem;
-    }
+  .navbar img {
+    height: 20px;
+    width: auto;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
 }
 
 /* For small devices, landscape phone, or less */
 @media screen and (max-width: 576px) {
-    .jumbotron-header {
-        font-weight: 600;
-        font-size: 2rem;
-    }
-    .carousel-item img {
-        max-height: 300px;
-    }
+  .jumbotron-header {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  .carousel-item img {
+    max-height: 300px;
+  }
 }
 
 /* For medium to large devices (tablets to desktop) */
 @media screen and (min-width: 992px) and (max-width: 1599.99px) {
-    .jumbotron {
-        max-width: 50vw;
-    }
+  .jumbotron {
+    max-width: 50vw;
+  }
 }
 
 /* For large devices (desktop) and up */
 @media screen and (min-width: 992px) {
-    .header-container {
-        /* The vendor prefixes below are from Autoprefixer CSS */
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
-        justify-content: flex-end;
-    }
-    .jumbotron {
-        background-color: rgba(255,255,255,0.8);
-    }
-    .header-container {
-        background-attachment: fixed;
-    }
+  .header-container {
+    /* The vendor prefixes below are from Autoprefixer CSS */
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .jumbotron {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .header-container {
+    background-attachment: fixed;
+  }
 }
 
 /* For extra wide monitor and up */
 @media screen and (min-width: 1600px) {
-    .jumbotron {
-        margin-right: 4rem;
-        max-width: 40vw;
-    }
+  .jumbotron {
+    margin-right: 4rem;
+    max-width: 40vw;
+  }
 }
