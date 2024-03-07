@@ -217,6 +217,10 @@ section {
   object-fit: cover;
 }
 
+.carousel-indicators {
+  display: none;
+}
+
 .products-text {
   padding: 5rem 1rem;
 }
