@@ -80,8 +80,8 @@ section {
 /*-- Navbar --*/
 
 .navbar img {
-  height: 35px;
-  width: 190px;
+  height: auto;
+  width: 195px;
 }
 
 .font-brand {
