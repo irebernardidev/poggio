@@ -53,4 +53,3 @@ document.addEventListener("DOMContentLoaded", function () {
       window.location = 'mailto:info@poggioailegni.com?subject=' + subject + '&body=' + emailBody;
     });
   });
-  
